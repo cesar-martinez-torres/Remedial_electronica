@@ -1,0 +1,195 @@
+004-005 @READ_PACKED_MEMORY.P1
+004-005 @READ_PROGRAM_MEMORY8.P2
+004-005 @WRITE_PROGRAM_MEMORY8.P3
+004-005 @WRITE_PACKED_MEMORY.P4
+006-007 @READ_PACKED_MEMORY.P1
+006-007 @WRITE_PACKED_MEMORY.P2
+020-021 strtok.save
+022-025 _Randseed
+026-02D character1
+02E-035 character2
+036-03D character3
+03E-045 character4
+046-04D character5
+04E-055 character6
+056-05D character7
+05E     randon
+05F-060 puntuacion
+061-062 final
+063-064 record
+065-066 record1
+067-068 cac
+069-06A gua
+06B     guar
+06C     delay
+06D     delay1
+06E     delay2
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+0A0-0A1 @sprintf_string
+0A2     principal.lo
+0A2     lcd_set_cgram_char.which
+0A2     lcd_init.i
+0A2     MAIN.@SCRATCH1
+0A2     @PSTRINGR_1074.@SCRATCH1
+0A3-0A4 lcd_set_cgram_char.ptr
+0A3-0A6 lcd_init.LCD_INIT_STRING
+0A3     @PSTRINGR_1074.@SCRATCH2
+0A4-0A7 @MUL3232.P1
+0A4     @PSTRINGCN7_1074.P2
+0A4-0A5 @PRINTF_LU_1074.P3
+0A4     rand.@SCRATCH1
+0A4     principal.@SCRATCH1
+0A5     lcd_set_cgram_char.i
+0A5     rand.@SCRATCH2
+0A5     principal.@SCRATCH2
+0A5     @PSTRINGC7_1074.@SCRATCH1
+0A5     @PSTRINGCN7_1074.@SCRATCH1
+0A6     rand.@SCRATCH3
+0A6     lcd_set_cgram_char.@SCRATCH1
+0A6     @PSTRINGC7_1074.@SCRATCH2
+0A6     @PSTRINGCN7_1074.@SCRATCH2
+0A7-0A8 @DIV1616.P1
+0A7     rand.@SCRATCH4
+0A7     lcd_init.@SCRATCH1
+0A7     @PSTRINGC7_1074.@SCRATCH3
+0A7     @PSTRINGCN7_1074.@SCRATCH3
+0A8-0AB @MUL3232.P1
+0A9-0AA @DIV1616.P1
+0AA     @PRINTF_LU_1074.@SCRATCH1
+0AB     @DIV1616.@SCRATCH1
+0AB     @PRINTF_LU_1074.@SCRATCH2
+0AC     @PRINTF_LU_1074.@SCRATCH3
+0AD     @PRINTF_LU_1074.@SCRATCH4
+0AE     @PRINTF_LU_1074.@SCRATCH5
+0AF     @MUL3232.@SCRATCH1
+0AF     @PRINTF_LU_1074.@SCRATCH6
+0B0     @MUL3232.@SCRATCH2
+0B0     @PRINTF_LU_1074.@SCRATCH7
+0B1     lcd_putc.c
+0B1     @MUL3232.@SCRATCH3
+0B2     @delay_ms1.P1
+0B2     lcd_gotoxy.x
+0B2     @MUL3232.@SCRATCH4
+0B3     lcd_gotoxy.y
+0B3     @MUL3232.@SCRATCH5
+0B4     lcd_gotoxy.address
+0B5     lcd_gotoxy.@SCRATCH1
+0B6     lcd_send_byte.address
+0B7     lcd_send_byte.n
+0B8     lcd_read_byte.low
+0B8     lcd_send_byte.@SCRATCH1
+0B9     lcd_send_nibble.n
+0B9     lcd_read_byte.high
+0BA     lcd_read_nibble.n
+0BA     lcd_read_byte.@SCRATCH1
+0BB     lcd_read_nibble.@SCRATCH1
+111.6   C1OUT
+113.6   C2OUT
+191-192 @READ_PROGRAM_MEMORY8.P1
+191-192 @WRITE_PROGRAM_MEMORY8.P2
+291     CCP_1
+291     CCP_1_LOW
+292     CCP_1_HIGH
+298     CCP_2_LOW
+298     CCP_2
+299     CCP_2_HIGH
+311     CCP_3_LOW
+311     CCP_3
+312     CCP_3_HIGH
+318     CCP_4
+318     CCP_4_LOW
+319     CCP_4_HIGH
+31C     CCP_5
+31C     CCP_5_LOW
+31D     CCP_5_HIGH
+
+ROM Allocation:
+000003  @const1105.call
+000004  @const1110.call
+000009  @const1111.call
+000013  @const1116.call
+000014  @const1117.call
+00001E  @const1118.call
+00001F  @const1138.call
+000020  @const1160.call
+000021  @const1164.call
+000027  @const1165.call
+00002E  @const1166.call
+00002F  @const1167.call
+000037  @const1168.call
+00003F  @const1169.call
+000040  @const1170.call
+00004B  @const1172.call
+00004C  @const1174.call
+00004D  @const1176.call
+00004E  @const1178.call
+00004F  @const1179.call
+000050  @delay_ms1
+000066  lcd_send_nibble
+00009B  lcd_read_nibble
+0000CE  lcd_send_byte
+0000D6  lcd_read_byte
+000130  lcd_init
+000186  lcd_set_cgram_char
+0001B2  lcd_gotoxy
+0001C6  lcd_putc
+000200  @PSTRINGC7_1074
+00024E  @PSTRINGR_1074
+000264  @PSTRINGCN7_1074
+0002BC  @PRINTF_LU_1074
+000325  @DIV1616
+00034C  @cinit1
+00034C  MAIN
+00036B  @cinit2
+000800  principal
+0009B0  rand
+0009C7  @MUL3232
+0136  StrtoulGO
+0136  StrtolGO
+
+Project Directory:
+    D:\Users\20808\Documents\Repositorios\Remedial_electronica\Dia_3\
+
+Project Files:
+    Dino.c                                                  [10-jun.-21 16:28  CRC=AD2E5DCD]
+    C:\Program Files (x86)\PICC\Devices\16f1937.h           [15-ene.-18 16:55  CRC=34593041]
+    C:\Program Files (x86)\PICC\Drivers\stdlib.h            [29-jun.-16 10:34  CRC=7E9CC16B]
+    C:\Program Files (x86)\PICC\Drivers\stddef.h            [05-sep.-14 12:47  CRC=897CEC6C]
+    C:\Program Files (x86)\PICC\Drivers\string.h            [26-mar.-15 13:34  CRC=C4814297]
+    C:\Program Files (x86)\PICC\Drivers\ctype.h             [03-ene.-08 15:55  CRC=2D1F019F]
+    C:\Program Files (x86)\PICC\Drivers\tones.c             [22-may.-03 15:25  CRC=437B685A]
+    C:\Program Files (x86)\PICC\Drivers\lcd.c               [22-feb.-16 10:05  CRC=D1A6378A]
+
+Source signature=C2095789
+Program memory checksum=0000
+Program memory CRC=0000
+Hex file CRC=34A3
+
+Units:
+    Dino (main)
+
+Compiler Settings:
+    Processor:      PIC16F1937
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+    Enhanced 16:    Yes
+    Compile Mode:       CCS5
+
+Output Files:
+    XREF file:   Dino.xsym
+    Errors:      Dino.err
+    Ext Symbols: Dino.esym
+    INHX8:       Dino.hex
+    Symbols:     Dino.sym
+    List:        Dino.lst
+    Debug/COFF:  Dino.cof
+    Project:     Dino.ccspjt
+    Call Tree:   Dino.tre
+    Statistics:  Dino.STA
