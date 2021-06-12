@@ -4,7 +4,7 @@
 
 
 #USE STANDARD_IO(D)
-
+// Naranja - pulso; Rojo - VCC; Café - GND
 
 void main()
 {
@@ -24,7 +24,7 @@ delay_ms(20);
 delay_ms(3000);
 for(i=0;i<60;i++)
 {
-//Mover a 58 grados
+//Mover a 58 grados?
 output_high(PIN_D2);
 delay_us(1322);
 output_low(PIN_D2);
